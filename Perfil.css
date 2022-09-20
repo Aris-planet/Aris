@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f5f5f5;
+}
+
+.locsi{
+    height:10%;
+    width:25%;
+    padding: 0 2rem;
+    left: 37%;
+    display:flex;
+    position:relative;
+    
+
+}
+
+
+nav{
+    height:89px;
+    width:100%;
+    padding: 0 2rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    position:relative;
+    top:0;
+    z-index:99;
+}
+
+nav .nav-left, nav .nav-right{
+    display:flex;
+    align-items: center;
+}
+
+nav .nav-left > img{
+    box-shadow: 2px 2px 14px rgba(128, 128, 128, 0.281);
+    width:90px;
+    top: 6%;
+    position: relative;
+    left: 72%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.nav-middle .home img{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    background-color: rgba(32, 255, 106, 0.222);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 18px rgba(128, 128, 128, 0.445);
+    
+}
+.nav-middle .home{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-middle .lwu img{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    
+    
+}
+.nav-middle .lwu{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-middle .foro img{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    
+}
+.nav-middle .foro{
+    width: 40px;
+    height: 40px;
+}
+
+.nav-middle .ap img{
+    width: 33px;
+    height: 33px;
+    position: relative;
+    
+}
+.nav-middle .ap{
+    width: 40px;
+    height: 40px;
+}
+
+.foro img:hover{
+    width: 38px;
+    height: 40px;
+    background-color: rgba(32, 255, 106, 0.222);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.lwu img:hover{
+    width: 38px;
+    height: 40px;
+    background-color: rgba(32, 255, 106, 0.222);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+.ap img:hover{
+    width: 38px;
+    height: 40px;
+    background-color: rgba(32, 255, 106, 0.222);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.nav-middle{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+    box-shadow: 2px 5px 21px rgba(128, 128, 128, 0.224);
+}
+
+.nav-middle a{
+    text-decoration: none;
+    color:#000000db;
+    padding:10px;
+    margin:0px 10px;
+}
+
+.nav-middle a:hover{
+    text-decoration: none;
+    color:rgba(32, 255, 106, 0.736);
+}
+
+
+.nav-middle a.active{
+    color:#000000db;
+    position:relative;
+}
+
+
+.nav-middle a > i{
+    font-size: 25px;
+}
+
+.nav-middle a > i:hover{
+    font-size: 24.2px;
+}
+
